@@ -52,7 +52,7 @@ int main() {
 			ssub = mul(sa,lb-i-1,sb[i]-'0');
 			sres = plu(sres,ssub);
 		}
-		cout << sres;
+		cout << sres << endl;
 	} 
 	return 0;
 }
